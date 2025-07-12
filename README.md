@@ -18,7 +18,7 @@ Instead of cramming all logic into one big class, I:
 Defined a common interface that acts as a contract.
 Created separate implementation classes, each handling a specific concern.
 Built a service class with a map that identifies which implementation to call using the interface.
-Finally, used the service class from the controller, keeping it lean and focused on orchestration only.
+Finally, used the service class from the controller class, keeping it lean and focused on orchestration only.
 
 ✅ Result: Code that’s easier to read, test, and extend — whether I need to onboard new logic or update existing ones for specific actors.
 
@@ -29,3 +29,4 @@ Simplifies maintenance and debugging
 
 In the Folder structure : Instead of creating a single class to get ata for all the different users create through "CombinedGetDataClass"
 Created :1. "GetDataInterface" and interface with "getData()" Method. 2. Created different implementation classes like GetDatForCEO 3. created service class which calls respective implementation class.
+And a controller class GetDataController which will be used to get data.
