@@ -1,5 +1,0 @@
-public class GetDataForManager implements GetDataInterface{
-    public void getData(){
-        System.debug('Data for Manager');
-    }
-}

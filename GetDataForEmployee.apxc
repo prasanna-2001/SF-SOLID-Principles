@@ -1,5 +1,0 @@
-public class GetDataForEmployee implements GetDataInterface{
-    public void getData(){
-        System.debug('Data for Employee');
-    }
-}

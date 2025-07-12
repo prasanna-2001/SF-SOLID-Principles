@@ -1,8 +1,0 @@
-public class GetDataController{
-   //this class will be generically called.
-   @AuraEnabled 
-   // instead of void we will have a return type as per requirement.
-   public static void getData(String userLevel){
-        GetDataService.getData(userLevel);
-   }
-}
